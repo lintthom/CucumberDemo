@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-16T05:24:17.141Z",
+        "line": 3,
+        "name": "To test Login with Valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-of-the-application;to-test-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73190000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login Page",
+            "match": {
+              "location": "step_definition.definition.login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter a Valid user name \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definition.definition.enter_a_valid_user_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter a Valid password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "step_definition.definition.enter_a_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7567000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on submit button",
+            "match": {
+              "location": "step_definition.definition.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9835000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login is Successful and see user name as \"Welcome Paul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paul\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definition.definition.login_is_successful_and_see_user_name_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login of the Application",
+    "description": "",
+    "id": "to-validate-the-login-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/login.feature",
+    "tags": []
+  }
+]
