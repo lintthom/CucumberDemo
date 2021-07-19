@@ -6,4 +6,4 @@ Given Login Page
 When Enter a Valid user name "Admin"
 And Enter a Valid password "admin123"
 And Click on submit button
-Then Login is Successful and see user name as "Welcome Paul"
+Then Login is Successful and see user name as "Welcome Nishanth05"
